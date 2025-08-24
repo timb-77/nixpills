@@ -16,7 +16,7 @@ derivation {
     gnugrep
     ;
   bintools = pkgs.binutils.bintools;
-  src = ./hello-2.12.1.tar.gz;
+  src = ../hello-2.12.1.tar.gz;
   system = builtins.currentSystem;
 }
 
